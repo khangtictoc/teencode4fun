@@ -1,0 +1,100 @@
+/* HEADER */
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.navlink{
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    margin: 30px;
+}
+
+.raw{
+    display: flex;
+    justify-content: center;
+}
+
+.teencode{
+    display: flex;
+    justify-content: center;
+}
+
+.convert{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* button */
+
+button{
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.conversion1{
+    border-color: #04AA6D;
+    color: green;
+}
+  
+.conversion1:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.conversion2{
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+  
+.conversion2:hover{
+    background: #2196F3;
+    color: white;
+}
+  
+
+textarea {
+    width: 600px;
+    height: 150px;
+    margin: 30px;
+}
+
+/* FOOTER */
+
+
+.author{
+    display: flex;
+    justify-content: center;
+}
+.author li{
+    list-style-type: none;
+    color:#784BA0;
+    font-family: 'Josefin Sans', sans-serif;
+}
